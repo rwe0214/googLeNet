@@ -5,7 +5,17 @@ The simple comparison between naive inception and inception v2 in googLeNet
 ## Result
 
 ```shell
-$ python3 main.py
+$ python3 main.py -h
+usage: main.py [-h] [--lr LR] [--epoch EPOCH]
+
+PyTorch CIFAR100 Training
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --lr LR               learning rate
+  --epoch EPOCH, -e EPOCH
+                        epoch numbers
+$ python3 main.py -e 5
 ==> Preparing data..
 Files already downloaded and verified
 Files already downloaded and verified
